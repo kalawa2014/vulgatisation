@@ -1,0 +1,16 @@
+
+Objectifs:
+Le but de ce projet est de vulgariser mes travaux de recherches sur la migration des interfaces utilisateurs (UI). Pour rappel, cette approche consiste à offrir aux developpeurs une plateforme de migration assisté des UIs entre différentes plateformes tout en prenant en compte les règles ergonomiques de la plateforme cible.
+Pour ce fait, nous devrons contextualiser les exemples pour prendre en compte les recherches dans le domaines des modèles d'UI et les règles ergonomiques sur les tables interactives. 
+Nous devrons aussi nous appuyer sur des exemples d'applications réaliste et utilisables. 
+Un demonstrateur en ligne doit être mise en plate pour rendre accesibles l'approche de migration des UI basées sur les primitives d'intercations.
+
+Phase 1: Etat de l'art
+ -  Actualiser les règles ergonomiques et les UX sur les tables interactives.
+ -  Actualiser les approches de migrations des application informatiques basées sur les modèles.
+ 
+Phase 2: Cas d'étude "réaliste et réalisable"
+
+
+Phase 3:  Mise en oeuvre
+ - Implémenter un site web qui fera parti de mon CV pour montrer
