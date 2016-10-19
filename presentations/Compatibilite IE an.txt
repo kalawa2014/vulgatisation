@@ -1,0 +1,38 @@
+Sujet: Compatibilité des applications angular JS sur IE
+
+
+Etat de l'art:
+
+1) Angular sur IE 11: http://stackoverflow.com/questions/27351713/angular-js-not-working-in-ie-11
+              - Use strict
+                   Rendre globale une fonction pour IE 11  => injectect dans le module concerné
+			angular.module('myApp').controller('webAddressController', function($scope) {
+        // Do things
+    });
+
+2) Comment interdire le mode de compatibilité sur IE ?
+ X-UA-Compatible: 
+ Toutefois, il est possible d'interdire cette possibilité, et de plusieurs manières :
+
+    via un méta-tag : <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    via un entête PHP : header('x-ua-compatible: ie=edge');
+    ou soit directement dans un fichier .htaccess via : header set X-UA-Compatible "IE=Edge"
+
+3) AngularJS caching issue for Internet Explorer 
+http://www.oodlestechnologies.com/blogs/AngularJS-caching-issue-for-Internet-Explorer
+
+ When we use $http to get the data from the server in AngularJS a small issue arises only in Internet Explorer. 
+The major problem of this issue is that if we want to refresh the data by sending the same call again to the server, 
+Internet Explorer fetches the data from the cache and do not show the updated result.
+
+To solve the problem you only have to implement a small code in your AngularJs Module Configuration part
+
+4) Dealing with ie family
+http://ng-learn.org/2013/12/Dealing-with-IE-family/
+
+
+
+Problématiques:
+
+   Comment rendre Ci5 compatible sur IE?
+
