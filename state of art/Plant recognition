@@ -1,0 +1,13 @@
+Sujet : Reconnaissance des plantes par des reseaux de neurones.
+
+Cet article présente la mise en oeuvre d'un robot de jardinage basée sur l'identification des plantes par des réseaux de neurones.
+Il nous interessera si nous souhaitons mettre en oeuvre une application mobile pour l'identification des plante par caméra de smartphone.
+L'aspect identification des plantes est basé sur des techniques assez connues et vulgarisé telle que les reseau de neurones
+Nous devons nous interessé par la suite sur les 
+
+mots clefs suivant: 
+  - SIFT(Scale Invariant Feature Transform)
+  - SURF (Speeded Up Robust Features)
+  - Feature Matching, Feature Extraction, Feature Detection
+
+Le papier ne présente pas l'implétation de la partie detection des formes de plante et les une etudes comparatives des algorithmes de reseaux de neurones
