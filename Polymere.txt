@@ -1,0 +1,13 @@
+Exemple de d'utilisation des primitives d'interctations
+
+L'apprentissage de nouvelle bibliothèque de graphique (widget) est une chose fatidieuse pour tout developpeur
+Dans le domaine du web, nous pouvons montrer l'intérêt des PI en montrant qu'on peut trouver une équivalence semantique entre les composants graphiques de base d'une nouvelle bibliothèque graphique.
+
+Cas d'étude:
+ Prenons un dev qui maitrise à à fond Angular Js avec boot strap. Ce dernier souhaite faire du Polymère out tout autre nouvelle technologie à la mode
+
+
+
+
+Bibliographie:
+ - https://www.polymer-project.org
